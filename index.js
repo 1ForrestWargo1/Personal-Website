@@ -24,7 +24,7 @@ app.get("/home", (req, res) => {
 app.use("/home", express.static("assets"));
 
 app.get("/", (req, res) => {
-    res.send("hello express test");
+    res.send("hello express test solo");
 
 });
 

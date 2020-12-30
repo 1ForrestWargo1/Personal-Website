@@ -21,7 +21,7 @@ app.get("/home", (req, res) => {
     res.sendFile(path.join(__dirname + '/assets/index.html'));
 });*/
 
-app.use("/", express.static("assets"));
+app.use("/", express.static("site"));
 
 
 app.listen(port, () => {

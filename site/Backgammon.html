@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <link rel="stylesheet" href="website.css">
+    <link rel="stylesheet" href="NavBar.css">
+</head>
+ <body>
+ <ul>
+     <li><a id = "about" href="index.html">About</a></li>
+     <li><a id = "sudoku"  href="sudoku.html">Sudoku</a></li>
+     <li><a id = "backgammon" href="Backgammon.html">Backgammon</a></li>
+ </ul>
+ <script>
+     document.getElementById("backgammon").className = "active"
+ </script>
+ <style>
+     body {margin: 0}
+     canvas {display: block; background-color: lightBlue;}
+ </style>
+ <canvas style="margin-left:auto;
+    margin-right:auto; margin-bottom: auto; margin-top: auto;" id = "backgammon_board">
+ </canvas>
+ <div style="text-align:center" >
+     <h3 style="position: center">You are the Red Player. To make a move select a die by clicking on it,
+         then select a triangle by clicking on it as well.</h3>
+     <h3>Good luck!</h3>
+ </div>
+
+
+ <a style="opacity: 0" id = "winner" href="Winner.html">next</a>
+ <a  style="opacity: 0"id = "looser" href="Looser.html">next</a>
+
+
+ <script src="Backgammon.js"></script>
+
+
+ </body>
+
+
+
+
+

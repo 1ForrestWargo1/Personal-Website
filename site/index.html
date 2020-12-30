@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <link rel="stylesheet" href="website.css">
+    <link rel="stylesheet" href="NavBar.css">
+</head>
+<body>
+<ul>
+    <li><a id = "about" href="index.html">About</a></li>
+    <li><a id = "sudoku"  href="sudoku.html">Sudoku</a></li>
+    <li><a id = "backgammon" href="Backgammon.html">Backgammon</a></li>
+</ul>
+     <script>
+     document.getElementById("about").className = "active"
+     </script>
+<style>
+body, html {
+  height: 100%;
+  margin: 0;
+  background-color: #cee0d0;
+}
+
+
+#about_page {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    background-color: #cee0d0;
+}
+
+#photo, #description {
+    width: calc(90% - 270px);
+    display: block;
+    min-width: 270px;
+    max-width: 400px;
+    border-radius: 10px;
+    float: right;
+    margin-right: 10px;
+    margin-left: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+
+}
+
+#description {
+    background-color: #f5ffeb;
+    clear: right;
+    padding: 10px;
+    font-family: 'Abel', sans-serif;
+    font-size: 16pt;
+}
+
+#linklist {
+    margin: 10px;
+    float: left;
+
+}
+
+
+#photo img {
+    width: 100%;
+    border-radius: inherit;
+
+}
+#linklist div {
+    width: 230px;
+    margin: 10px;
+    background-color: white;
+    vertical-align: middle;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#linklist div img {
+    height: 30px;
+
+
+}
+
+#linklist div a {
+    font-family: 'Sofia', cursive;
+    font-size: 30px;
+    margin-left: 10px;
+    color: inherit;
+
+}
+
+
+
+#linkedin {
+    color: #416587;
+    border: 5px solid #416587;
+}
+
+
+#bitbucket {
+  color: #2e51ff;
+  border: 5px solid #2e51ff;
+}
+
+#email {
+  color: #fc581c;
+  border: 5px solid #fc581c;
+}
+
+#resume {
+  color: #000000;
+  border: 5px solid #000000;
+}
+
+
+
+#footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+
+}
+
+</style>
+
+<div id = "about_page">
+
+
+    <div id = "linklist">
+        <div class = link id = "linkedin">
+            <img src="about_page/linkedin.png" alt = "linkedin">
+            <a href="https://www.linkedin.com/in/forrest-wargo-089090161/" target="_blank">LinkedIn</a>
+        </div>
+
+        <div class = link id = "bitbucket">
+            <img src="about_page/bitbucket.png" alt = "Bitbucket">
+            <a href="https://bitbucket.org/%7B3401cabe-fbaa-4125-9c9e-83a50d760bd8%7D/" target="_blank">Bitbucket</a>
+        </div>
+
+        <div class = link id = "email">
+            <img src="about_page/gmail_logo.png" alt = "Email">
+            <a href = "mailto: Forrest.Wargo@gmail.com">Email Me</a>
+        </div>
+
+        <div class = link id = "resume">
+            <img src="about_page/resume.png" alt="Resume">
+            <a href='about_page/Forrest_Wargo_Resume.pdf' target="_blank">Resume</a>
+        </div>
+    </div>
+
+
+    <div id = "photo">
+        <img src="about_page/me_on_wall.jpg">
+
+    </div>
+    <div id = "description">
+        <P class="Bio">
+            My name is Forrest Wargo. I am a junior Computer Science major at the University of Rochester. I am a Computer Science Tutor For Juni Learning Currently looking for Internships,
+            Freelance work, and short term jobs. I have experience in full-stack web development including with AWS, Flutter, and Flask. I also have experience programing in Python,
+            Java, C++, C, Dart, and Lisp. you can find my contact, projects, resume, and Linkedin on the left.
+        </P>
+    </div>
+
+
+<img id = "footer" src ="about_page/trees_bottom2.png">
+</div>
+
+
+
+
+</body>

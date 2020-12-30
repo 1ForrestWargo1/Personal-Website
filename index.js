@@ -21,12 +21,8 @@ app.get("/home", (req, res) => {
     res.sendFile(path.join(__dirname + '/assets/index.html'));
 });*/
 
-app.use("/home", express.static("assets"));
+app.use("/", express.static("site"));
 
-app.get("/", (req, res) => {
-    res.send("hello express test solo");
-
-});
 
 app.listen(port, () => {
   console.log(`Express app listening at http://localhost:${port}`);

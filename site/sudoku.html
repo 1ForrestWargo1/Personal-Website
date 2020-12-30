@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="website.css">
+    <link rel="stylesheet" href="NavBar.css">
+    <link rel="stylesheet" href="sudoku.css">
+
+</head>
+<body>
+<ul>
+    <li><a id = "about" href="index.html">About</a></li>
+    <li><a id = "sudoku"  href="sudoku.html">Sudoku</a></li>
+    <li><a id = "backgammon" href="Backgammon.html">Backgammon</a></li>
+</ul>
+     <script>
+     document.getElementById("sudoku").className = "active"
+     </script>
+<!--<button class="permanent" type="button" id ="submit_value" onclick="select_button(-1)">submit</button>-->
+     <div id = 'table_container' >
+     <table id = "board_table" style="    margin-left:auto;
+    margin-right:auto;">
+    </table>
+     </div>
+
+     <input type="range" min="1" max="100" value="20"  id="speed_slider">
+
+     <div id = button_container>
+     <button class="permanent" type="button" id ="generate" onclick=" generate_board()">Generate Unique Puzzle</button>
+
+     <button class="permanent" type="button" id ="reset" onclick=" reset_puzzle()">Reset</button>
+
+<button class="permanent" type="button" id ="solver" onclick=" solve_puzzle()">Solve</button>
+     </div>
+
+<p id ="warning" style=" color: red">input out of bounds </p>
+<script src="sudoku.js"></script>
+</body>

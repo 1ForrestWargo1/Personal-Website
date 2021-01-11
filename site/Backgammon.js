@@ -21,11 +21,11 @@
         document.addEventListener("DOMContentLoaded", init);
 
         function init(){
-            let canvas = document.getElementById("backgammon_board")
+            canvas = document.getElementById("backgammon_board")
             ctx = canvas.getContext("2d");
 
-            let width = canvas.width = window.innerWidth;
-            let height = canvas.height = window.innerHeight;
+            width = canvas.width = window.innerWidth;
+            height = canvas.height = window.innerHeight;
             if(width > height){h = 0.8*height; w = height}
             if(width < height){w = width; h = 0.8*width}
             offset_w = (window.innerWidth-w)/2

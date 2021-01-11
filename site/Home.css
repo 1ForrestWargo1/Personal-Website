@@ -1,0 +1,114 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    background-color: #cee0d0;
+}
+
+
+#about_page {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    background-color: #cee0d0;
+}
+
+#photo, #description {
+    width: calc(90% - 270px);
+    display: block;
+    min-width: 270px;
+    max-width: 400px;
+    border-radius: 10px;
+    float: right;
+    margin-right: 10px;
+    margin-left: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+
+}
+
+#description {
+    background-color: #f5ffeb;
+    clear: right;
+    padding: 10px;
+    font-family: 'Abel', sans-serif;
+    font-size: 16pt;
+}
+#tree_canvas {
+    background-color: lightgreen;
+    width: 0px;
+    height:0px;
+    margin: 10px;
+    vertical-align: middle;
+    border-radius: 10px;
+
+}
+
+#linklist {
+    margin: 10px;
+    float: left;
+
+}
+
+
+#photo img {
+    width: 100%;
+    border-radius: inherit;
+
+}
+#linklist div {
+    width: 230px;
+    margin: 10px;
+    background-color: white;
+    vertical-align: middle;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#linklist div img {
+    height: 30px;
+
+
+}
+
+#linklist div a {
+    font-family: 'Sofia', cursive;
+    font-size: 30px;
+    margin-left: 10px;
+    color: inherit;
+
+}
+
+
+
+#linkedin {
+    color: #416587;
+    border: 5px solid #416587;
+}
+
+
+#bitbucket {
+    color: #2e51ff;
+    border: 5px solid #2e51ff;
+}
+
+#email {
+    color: #fc581c;
+    border: 5px solid #fc581c;
+}
+
+#resume {
+    color: #000000;
+    border: 5px solid #000000;
+}
+
+
+
+#footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+
+}

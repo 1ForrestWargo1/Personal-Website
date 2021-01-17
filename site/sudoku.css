@@ -15,8 +15,9 @@
 
     table, th, td {
         position: center;
-        width: 40%;
-        padding-bottom: 40%; /* = width for a square aspect ratio */
+        width: min(100vw,90vh);
+        padding-top: 20%; /* = width for a square aspect ratio */
+        padding-bottom: 20%; /* = width for a square aspect ratio */
         border: 3px solid black;
         border-collapse: collapse;
     }
@@ -58,7 +59,7 @@
 
     }
     #button_container{
-         margin: auto;
+        margin: auto;
         width: 15%;
     }
 

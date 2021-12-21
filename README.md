@@ -1,4 +1,4 @@
-# [Fwargo.com](fwargo.com)
+# [Fwargo.com](https://fwargo.herokuapp.com/)
 Personal Website Using Node.JS
 This is a collection of tabletop games I have created in JS with algorithms to solve them
 

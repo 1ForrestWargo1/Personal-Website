@@ -1,4 +1,4 @@
-# [Fwargo.com] (fwargo.com)
+# [Fwargo.com](fwargo.com)
 Personal Website Using Node.JS
 This is a collection of tabletop games I have created in JS with algorithms to solve them
 

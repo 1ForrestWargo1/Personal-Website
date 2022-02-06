@@ -30,7 +30,7 @@ li a:hover:not(.active) {
 }
 
 .active {
-  background-color: rgb(175,0,175);
+  background-color: rgb(155, 87, 169);
         font-size: 100%;
     padding: 14px 16px;
       text-align: center;

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="../website.css">
+    <link rel="stylesheet" href="../NavBar.css">
+</head>
+<style>
+    #replay{
+        margin: auto;
+        display: block;
+        background-color: navy;
+        color: red;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        height: 50%;
+        border: none;
+    }
+    #replay:hover{
+        background-color: blue;
+
+    }
+</style>
+<body>
+<ul>
+    <li><a id = "about" href="../index.html">About</a></li>
+    <li><a id = "sudoku"  href="../Sudoku/sudoku.html">Sudoku</a></li>
+    <li><a id = "backgammon" href="Backgammon.html">Backgammon</a></li>
+</ul>
+<script>
+    document.getElementById("backgammon").className = "active"
+</script>
+<h1>Congratulations! </h1>
+<div style="margin: auto;
+        width: 200px;
+        padding: 10px;">
+
+    <a id = "replay" href="http://127.0.0.1:5000///Backgammon">Play Again</a>
+</div>
+
+</body>
+</html>
+
+

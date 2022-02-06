@@ -1,0 +1,79 @@
+    .tile {
+        border: 1px inset black;
+        background-color: white;
+        width: 11.111%;
+        height: 11.111%;
+        padding-bottom: 5%;
+        font-size: 150%;
+        margin: auto;
+
+
+
+        display: inline-block;
+    }
+
+
+    table, th, td {
+        position: center;
+        width: min(100vw,90vh);
+        padding-top: 20%; /* = width for a square aspect ratio */
+        padding-bottom: 20%; /* = width for a square aspect ratio */
+        border: 3px solid black;
+        border-collapse: collapse;
+    }
+
+
+    .tile:hover{
+        background-color: rgba(200,200,225,1);
+    }
+
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+    }
+
+    .permanent{
+        margin: auto;
+        display: block;
+        background-color: #333333;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        height: 50%;
+        border: none;
+    }
+    #generate{
+        width: 100%;
+    }
+    #reset{
+        width: 50%;
+        display: inline;
+        float: right;
+                margin: auto;
+
+    }
+    #solver{
+        width: 50%;
+
+    }
+    #button_container{
+        margin: auto;
+        width: 15%;
+    }
+
+    .permanent:hover{
+        background-color: black;
+    }
+    #table_container{
+        padding-top: 20px;
+    }
+    #speed_slider{
+        position: absolute;
+        left:60%;
+        opacity: 0;
+
+    }
+
+

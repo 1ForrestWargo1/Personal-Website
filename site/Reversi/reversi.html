@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="../website.css">
+    <link rel="stylesheet" href="../NavBar.css">
+    <link rel="stylesheet" href="reversi.css">
+
+</head>
+<body>
+<ul>
+    <li><a id = "about" href="../index.html">About</a></li>
+    <li><a id = "reversi" href="reversi.html">Reversi</a></li>
+    <li><a id = "sudoku"  href="../Sudoku/sudoku.html">Sudoku</a></li>
+    <li><a id = "backgammon" href="../Backgammon/Backgammon.html">Backgammon</a></li>
+
+</ul>
+     <script>
+     document.getElementById("reversi").className = "active"
+     </script>
+<!---->
+     <div id = 'table_container' >
+        <table id = "board_table" style="    margin-left:auto;
+            margin-right:auto;"></table>
+         <p id = "thinking">Thinking...</p>
+         <p id ="warning" style=" color: rgb(175,0,175)">Invalid Move</p>
+
+
+     </div>
+
+     <div id = button_container>
+
+         <div id="slider_container" class="permanent">
+             <input type="range" value="7" min="0" max="15" oninput="this.nextElementSibling.value = this.value"  id="depth_slider">
+             <output>7</output>
+             <p>Adjust Search Depth</p>
+         </div>
+
+
+        <button class="permanent" type="button" id ="show_moves" onclick=" show_moves()">Show Moves</button>
+         <button class="permanent" type="button" id ="rank_moves" onclick=" rank_moves()">Rank Moves</button>
+         <button class="permanent" type="button" id ="reset" onclick=" reset_game()">Reset</button>
+
+
+     </div>
+<script src="reversi.js"></script>
+</body>
